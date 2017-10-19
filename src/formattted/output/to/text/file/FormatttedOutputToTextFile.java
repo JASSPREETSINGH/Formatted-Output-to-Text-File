@@ -20,7 +20,12 @@ public class FormatttedOutputToTextFile {
     public static void main(String[] args) 
     throws Exception{
         Formatter out=new Formatter(new File("out.txt"));//Declare the formatter for the output
+        int grade1=89;
+        double grade2=82;
+        String name="Jaspreet Singh";
+        double average=(grade1+grade2)/2;
+        out.format("hello %s%n", name);//store the name in the output file
         
-    }
+    } 
     
 }
