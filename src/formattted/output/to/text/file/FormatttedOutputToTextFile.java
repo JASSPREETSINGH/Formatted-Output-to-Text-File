@@ -25,6 +25,8 @@ public class FormatttedOutputToTextFile {
         String name="Jaspreet Singh";
         double average=(grade1+grade2)/2;
         out.format("hello %s%n", name);//store the name in the output file
+        out.format("your grades are %d and %f", grade1,grade2);
+        out.format("The average of your grades is %f ", average);
         
     } 
     
